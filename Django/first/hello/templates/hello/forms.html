@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head><title>let make forms</title></head>
+
+    <body>
+        <h1>Why We Use Forms</h1>
+        <br>forms are used to get data from the user </br>
+        <br> form then try input and give name= a name to manage data later type= passsword,text,radio,submit , placeholder = "the texct like type here"</br>
+        <br> you can even try datalist by instead giving a type to form give it a list="id" and call datalist id="id you gave to list" and option value="batman</br>
+        <form>
+            <input type="text" placeholder="First Name" name="first">
+            <input type="password" placeholder="Password" name="password">
+            <div>
+                Favorite Color:
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="yellow"> Yellow
+                <input name="color" type="radio" value="red"> Red
+    
+            </div>
+
+            <div>
+                <input name="character" list="characters" placeholder="your character">
+                <datalist id="characters">
+                    <option value = "Batman">
+                    <option value = "Superman">
+                    <option value = "Spiderman">
+                    <option value = "Man">
+                    <option value = "Goku">
+                    <option value = "Itachi">
+                    <option value = "Madara">
+                    <option value = "Vegita">
+                </datalist>
+
+            </div>
+            <input type="submit">
+        </form>
+
+
+    </body>
+
+
+
+
+</html>
