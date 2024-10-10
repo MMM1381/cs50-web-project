@@ -10,3 +10,5 @@ def MMM(request):
 
 def laugh (request):
     return HttpResponse("hahahahah")
+
+
