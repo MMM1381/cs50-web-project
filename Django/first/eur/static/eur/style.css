@@ -1,3 +1,9 @@
 h2 {
-    font-size: 100px;
+    font-size: 12px;
+    background-color: blue;
+}
+.row > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
 }
