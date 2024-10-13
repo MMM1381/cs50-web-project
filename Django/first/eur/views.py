@@ -13,5 +13,5 @@ def index(request):
         "High":high,
         "Low":low,
         "Close":close,
-        "ok":True
+        "ok":open<close
     })
